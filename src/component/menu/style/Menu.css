@@ -1,0 +1,11 @@
+.menu{
+    background-color: whitesmoke;
+}
+
+.home_link,
+.menu_link,
+.friends_link,
+.activities_link{
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,11 @@
+.address_box {
+  border: 1px solid white;
+  width: auto;
+  height: 230px;
+  border-radius: 12px;
+  margin: 20px;
+  margin-top: 40px;
+}
+h3 {
+  padding-top: 20px;
+}
