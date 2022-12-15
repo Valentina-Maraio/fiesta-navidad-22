@@ -2,7 +2,6 @@ import React from "react";
 import "./styles/BannerStyle.css";
 import menu from '../../assets/menu.jpg'
 import MenuTitle from "../title/MenuTitle";
-import Food from '../food/Food'
 
 const FoodBanner = () => {
   return (
@@ -16,7 +15,6 @@ const FoodBanner = () => {
       >
         <MenuTitle />
       </div>
-      <Food/>
     </>
   );
 };
