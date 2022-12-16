@@ -1,6 +1,6 @@
 import React from "react";
 import "./style/Foods.css";
-import { Card, Row, Button, Text, Modal } from "@nextui-org/react";
+import { Card, Row, Col, Button, Text, Modal } from "@nextui-org/react";
 import huevos from "../../assets/huevos.jpg";
 import lasagna from "../../assets/lasagna.jpg";
 import postre from "../../assets/postre.jpg";
@@ -36,7 +36,7 @@ const Foods = () => {
     <>
       <div className="container">
         <div className="entrantes">
-          <Card isPressable>
+          <Card>
             <Card.Body css={{ p: 0 }}>
               <Card.Image
                 src={huevos}
@@ -52,6 +52,17 @@ const Foods = () => {
                 backgroundColor: "whitesmoke",
               }}
             >
+              <Row>
+                <Col>
+                  <Row>
+                    <Col>
+                      <Text className="fonty" color="black" size={20}>
+                        Huevos Rellenos
+                      </Text>
+                    </Col>
+                  </Row>
+                </Col>
+              </Row>
               <Row wrap="wrap" justify="flex-end" align="center">
                 <Button
                   flat
@@ -79,14 +90,20 @@ const Foods = () => {
                 >
                   <Modal.Header>
                     <Text id="modal-title" size={18}>
-                      Valentina to
-                      <Text b size={18}>
-                        NextUI
-                      </Text>
+                      Huevos Rellenos
                     </Text>
                   </Modal.Header>
                   <Modal.Body>
-                    <h5>Ingredienti</h5>
+                    <Text>
+                      <ul>
+                        <li>Huevos</li>
+                        <li>Paté</li>
+                        <li>Mayonesa</li>
+                        <li>Pepinillos</li>
+                        <li>Sal</li>
+                        <li>Pimienta</li>
+                      </ul>
+                    </Text>
                   </Modal.Body>
                   <Modal.Footer>
                     <Button auto flat color="error" onClick={closeHandler}>
@@ -100,7 +117,7 @@ const Foods = () => {
         </div>
 
         <div className="primer_plato">
-          <Card isPressable>
+          <Card>
             <Card.Body css={{ p: 0 }}>
               <Card.Image
                 src={lasagna}
@@ -116,6 +133,17 @@ const Foods = () => {
                 backgroundColor: "whitesmoke",
               }}
             >
+              <Row>
+                <Col>
+                  <Row>
+                    <Col>
+                      <Text className="fonty" color="black" size={20}>
+                        Lasaña
+                      </Text>
+                    </Col>
+                  </Row>
+                </Col>
+              </Row>
               <Row wrap="wrap" justify="flex-end" align="center">
                 <Button
                   flat
@@ -143,19 +171,20 @@ const Foods = () => {
                 >
                   <Modal.Header>
                     <Text id="modal-title" size={18}>
-                      Primer Plato - <b>Lasagna</b>
+                      Primer Plato - <b>Lasaña</b>
                     </Text>
                   </Modal.Header>
                   <Modal.Body>
                     <Text>
                       <ul>
-                        <li>lasagna sheets</li>
+                        <li>Placas para lasaña</li>
                         <li>Carne picada (cerdo, vacuno)</li>
                         <li>Queso (vegano)</li>
                         <li>Salsa de tomate</li>
-                        <li>Nueces Moscada</li>
+                        <li>Nuez Moscada</li>
                         <li>Pimienta negra</li>
                         <li>Cebolla</li>
+                        <li>Zanahoria</li>
                         <li>Ajo</li>
                       </ul>
                     </Text>
@@ -172,7 +201,7 @@ const Foods = () => {
         </div>
 
         <div className="dulces">
-          <Card isPressable>
+          <Card>
             <Card.Body css={{ p: 0 }}>
               <Card.Image
                 src={postre}
@@ -188,6 +217,17 @@ const Foods = () => {
                 backgroundColor: "whitesmoke",
               }}
             >
+              <Row>
+                <Col>
+                  <Row>
+                    <Col>
+                      <Text className="fonty" color="black" size={20}>
+                        Postres
+                      </Text>
+                    </Col>
+                  </Row>
+                </Col>
+              </Row>
               <Row wrap="wrap" justify="flex-end" align="center">
                 <Button
                   flat
@@ -230,7 +270,12 @@ const Foods = () => {
                     </Text>
                   </Modal.Body>
                   <Modal.Footer>
-                    <Button auto flat color="error" onClick={closeHandlerChocolate}>
+                    <Button
+                      auto
+                      flat
+                      color="error"
+                      onClick={closeHandlerChocolate}
+                    >
                       Close
                     </Button>
                   </Modal.Footer>
@@ -241,7 +286,7 @@ const Foods = () => {
         </div>
 
         <div className="bebidas">
-          <Card isPressable>
+          <Card>
             <Card.Body css={{ p: 0 }}>
               <Card.Image
                 src={bebidas}
@@ -257,6 +302,17 @@ const Foods = () => {
                 backgroundColor: "whitesmoke",
               }}
             >
+              <Row>
+                <Col>
+                  <Row>
+                    <Col>
+                      <Text className="fonty" color="black" size={20}>
+                        Bebidas
+                      </Text>
+                    </Col>
+                  </Row>
+                </Col>
+              </Row>
               <Row wrap="wrap" justify="flex-end" align="center">
                 <Button
                   flat
@@ -305,7 +361,12 @@ const Foods = () => {
                     </Text>
                   </Modal.Body>
                   <Modal.Footer>
-                    <Button auto flat color="error" onClick={closeHandlerDrinks}>
+                    <Button
+                      auto
+                      flat
+                      color="error"
+                      onClick={closeHandlerDrinks}
+                    >
                       Close
                     </Button>
                   </Modal.Footer>

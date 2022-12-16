@@ -6,6 +6,7 @@ import antonela from "../../assets/friends/antonela.jpg";
 import gema from "../../assets/friends/gema.jpg";
 import isa from "../../assets/friends/isa.jpg";
 import jose from "../../assets/friends/jose.jpg";
+import joseV from "../../assets/friends/joseV.jpg";
 import miriam from "../../assets/friends/miriam.jpg";
 import valentina from "../../assets/friends/valentina.jpg";
 
@@ -34,6 +35,9 @@ const FriendsPhoto = () => {
         </Grid>
         <Grid>
           <User src={jose} name="Jose" size="xl" bordered />
+        </Grid>
+        <Grid>
+          <User src={joseV} name="Jose V." size="xl" bordered />
         </Grid>
       </Grid.Container>
       <Spacer />

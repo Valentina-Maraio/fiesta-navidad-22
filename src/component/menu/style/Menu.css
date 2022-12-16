@@ -1,5 +1,6 @@
 .menu{
     background-color: whitesmoke;
+    font-family: Satisfy, sarif;
 }
 
 .home_link,
@@ -9,3 +10,4 @@
     color: black;
     text-decoration: none;
 }
+

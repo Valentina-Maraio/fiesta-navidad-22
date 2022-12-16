@@ -31,10 +31,10 @@ const FunActivities = () => {
             <Col>
               <Row>
                 <Col>
-                  <Text b color="black" size={12}>
+                  <Text b color="white" size={12}>
                     Santa Secreto
                   </Text>
-                  <Text color="black" size={12}>
+                  <Text color="white" size={12}>
                     Presupuesto: de 3€ a 5€ (un detallito)
                     <br />
                     El intercambio se realizará en "La Cocina" colocando los
@@ -70,11 +70,11 @@ const FunActivities = () => {
             <Col>
               <Row>
                 <Col>
-                  <Text b color="black" size={12}>
+                  <Text b color="white" size={12}>
                     Juegos de mesa y mucho más
                   </Text>
-                  <Text color="black" size={12}>
-                   Como por ejemplo: Uno, The Game, Virus, Cards Against Humanity
+                  <Text color="white" size={12}>
+                   Como por ejemplo: Uno, The Game, Virus, Cards Against Humanity...
                   </Text>
                 </Col>
               </Row>

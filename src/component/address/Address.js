@@ -8,15 +8,15 @@ const Address = () => {
         <h3>Info Evento</h3>
         <br />
         <div className="info_box">
-            <span><b>Día</b>: 16 de Diciembre</span>
+            <span><b className="selected">Día</b>: 16 de Diciembre</span>
             <br/>
-            <span><b>Hora</b>: 20.30</span>
+            <span><b className="selected">Hora</b>: 20.30</span>
             <br/>
-            <span><b>Lugar</b>: Carrer del Actor Llorens, 28</span>
+            <span><b className="selected">Lugar</b>: Carrer del Actor Llorens, 28</span>
             <br/>
-            <span><b>Timbre</b>: 5 - Piso 2</span>
+            <span><b className="selected">Timbre</b>: Puerta 5 - Piso 2</span>
             <br/>
-            <span><b>Dresscode</b>: Semiformal</span>
+            <span><b className="selected">Dresscode</b>: Semiformal</span>
         </div>
       </div>
     </>

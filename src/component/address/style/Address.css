@@ -8,4 +8,9 @@
 }
 h3 {
   padding-top: 20px;
+  font-family: satisfy, serif;
+}
+
+.selected{
+  font-family: satisfy, serif;
 }
