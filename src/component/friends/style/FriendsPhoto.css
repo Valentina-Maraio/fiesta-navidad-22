@@ -1,0 +1,11 @@
+.container {
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+    margin: 20px;
+    margin-top: 40px;
+}
+.grid{
+    background-color: whitesmoke;
+    border-radius: 26px;
+}
