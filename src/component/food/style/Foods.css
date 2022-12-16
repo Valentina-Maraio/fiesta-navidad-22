@@ -3,5 +3,9 @@
     height: auto;
     border-radius: 12px;
     margin: 20px;
-    margin-top: 10px;
+    margin-top: 40px;
+}
+
+.entrantes, .primer_plato, .dulces, .bebidas {
+    margin-bottom: 30px;
 }
