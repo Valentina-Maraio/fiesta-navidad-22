@@ -6,7 +6,7 @@ const Title = () => {
     <>
       <div className="App_title">
           <h1>
-            <i>La Cocina!</i>
+            <i>La Cocina</i>
           </h1>
       </div>
     </>
